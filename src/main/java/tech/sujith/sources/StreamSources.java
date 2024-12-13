@@ -1,6 +1,9 @@
-package tech.sujith.reactive.examples;
+package tech.sujith.sources;
 
+import java.util.List;
 import java.util.stream.Stream;
+
+import tech.sujith.model.User;
 
 /**
  * This class is a source of collection streams used in the exercises.

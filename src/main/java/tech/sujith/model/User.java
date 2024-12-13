@@ -1,4 +1,4 @@
-package tech.sujith.reactive.examples;
+package tech.sujith.model;
 
 /**
  * This class is a sample custom Java type used in the exercises.
