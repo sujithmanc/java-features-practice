@@ -1,4 +1,4 @@
-package tech.sujith.reactive.streams;
+package tech.sujith.reactive.examples;
 
 import reactor.core.publisher.Flux;
 
