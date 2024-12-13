@@ -1,4 +1,4 @@
-package io.javabrains.reactiveworkshop;
+package tech.sujith.reactive.streams;
 
 public class Exercise1 {
 
@@ -7,7 +7,7 @@ public class Exercise1 {
         // Use StreamSources.intNumbersStream() and StreamSources.userStream()
 
         // Print all numbers in the intNumbersStream stream
-        // TODO: Write code here
+    	StreamSources.intNumbersStream().forEach(num -> System.out.println(num));
 
         // Print numbers from intNumbersStream that are less than 5
         // TODO: Write code here

@@ -1,4 +1,4 @@
-package io.javabrains.reactiveworkshop;
+package tech.sujith.reactive.streams;
 
 import java.io.IOException;
 
