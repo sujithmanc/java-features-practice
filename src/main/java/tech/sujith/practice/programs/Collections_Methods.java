@@ -12,7 +12,7 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
-import tech.sujith.practice.utils.JsonPrinter;
+import tech.sujith.utils.JsonPrinter;
 
 public class Collections_Methods {
 	public static void main(String[] args) {

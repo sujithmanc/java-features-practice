@@ -10,8 +10,8 @@ import java.util.stream.Collectors;
 import lombok.Data;
 import tech.sujith.practice.dto.Employee;
 import tech.sujith.practice.dto.Employee.Dept;
-import tech.sujith.practice.utils.DTOUtil;
-import tech.sujith.practice.utils.JsonPrinter;
+import tech.sujith.utils.DTOUtil;
+import tech.sujith.utils.JsonPrinter;
 
 public class Demo_40 {
 

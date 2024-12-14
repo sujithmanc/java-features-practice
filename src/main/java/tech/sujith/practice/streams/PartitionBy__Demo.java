@@ -5,7 +5,7 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 import lombok.Data;
-import tech.sujith.practice.utils.JsonPrinter;
+import tech.sujith.utils.JsonPrinter;
 
 @Data
 class Emp {

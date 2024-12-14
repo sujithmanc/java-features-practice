@@ -1,9 +1,8 @@
 package tech.sujith.practice.concorrent;
 
 import java.util.concurrent.CompletableFuture;
-import java.util.concurrent.Future;
 
-import tech.sujith.practice.utils.Util;
+import tech.sujith.utils.Util;
 
 public class Completable_Future_Demo {
 	public static void main(String[] args) {

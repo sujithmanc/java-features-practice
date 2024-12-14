@@ -6,12 +6,11 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
-import java.util.function.Function;
 import java.util.stream.Collectors;
 
 import tech.sujith.practice.dto.Employee;
 import tech.sujith.practice.dto.Employee.Dept;
-import tech.sujith.practice.utils.DTOUtil;
+import tech.sujith.utils.DTOUtil;
 
 public class ConcurrentHashMap__001 {
 	public static void main(String[] args) {

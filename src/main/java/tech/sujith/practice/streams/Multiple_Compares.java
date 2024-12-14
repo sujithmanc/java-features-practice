@@ -5,14 +5,12 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.Iterator;
 import java.util.List;
-import java.util.stream.Collectors;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import tech.sujith.practice.dto.Employee;
-import tech.sujith.practice.dto.Employee.Dept;
-import tech.sujith.practice.utils.DTOUtil;
-import tech.sujith.practice.utils.JsonPrinter;
+import tech.sujith.utils.DTOUtil;
+import tech.sujith.utils.JsonPrinter;
 
 public class Multiple_Compares {
 	public static void main(String[] args) {

@@ -3,11 +3,9 @@ package tech.sujith.practice.streams;
 import java.util.HashMap;
 import java.util.List;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-
 import lombok.AllArgsConstructor;
 import lombok.Data;
-import tech.sujith.practice.utils.JsonPrinter;
+import tech.sujith.utils.JsonPrinter;
 
 public class HashMap__001 {
 	

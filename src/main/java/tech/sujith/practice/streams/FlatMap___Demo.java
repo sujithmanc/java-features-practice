@@ -1,11 +1,10 @@
 package tech.sujith.practice.streams;
 
 import java.util.List;
-import java.util.stream.Stream;
 
 import tech.sujith.practice.dto.Bank;
 import tech.sujith.practice.dto.Employee;
-import tech.sujith.practice.utils.JsonPrinter;
+import tech.sujith.utils.JsonPrinter;
 
 public class FlatMap___Demo {
 

@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import tech.sujith.practice.utils.JsonPrinter;
+import tech.sujith.utils.JsonPrinter;
 
 public class StringMethods__001 {
 	public static void main(String[] args) {

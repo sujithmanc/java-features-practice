@@ -3,8 +3,6 @@ package tech.sujith.practice.mutli_threading;
 import java.util.HashMap;
 import java.util.Map;
 
-import tech.sujith.practice.utils.Util;
-
 public class HashMap__ConcurrentAccess {
 
 	public static void main(String[] args) throws InterruptedException {
