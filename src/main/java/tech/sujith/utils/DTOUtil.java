@@ -4,9 +4,9 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
-import tech.sujith.practice.dto.Employee;
-import tech.sujith.practice.dto.Employee.Dept;
-import tech.sujith.practice.dto.Employee.Gender;
+import tech.sujith.features.dto.Employee;
+import tech.sujith.features.dto.Employee.Dept;
+import tech.sujith.features.dto.Employee.Gender;
 
 public class DTOUtil {
 
