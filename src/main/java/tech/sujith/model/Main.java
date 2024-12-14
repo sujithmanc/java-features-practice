@@ -1,37 +1,17 @@
 package tech.sujith.model;
 
-import java.util.*;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Map;
 import java.util.stream.Collectors;
 
-class Student {
-	private int id;
-	private String name;
-	private int marks;
+import tech.sujith.sources.ListSources;
 
-	public Student(int id, String name, int marks) {
-		this.id = id;
-		this.name = name;
-		this.marks = marks;
-	}
-
-	public int getId() {
-		return id;
-	}
-
-	public String getName() {
-		return name;
-	}
-
-	public int getMarks() {
-		return marks;
-	}
-}
 
 public class Main {
 	public static void main(String[] args) {
-		List<Student> students = Arrays.asList(new Student(1, "John", 85), new Student(2, "Alice", 75),
-				new Student(3, "Bob", 65), new Student(4, "Charlie", 55), new Student(5, "Emma", 45),
-				new Student(6, "Frank", 35), new Student(7, "Grace", 90));
+		
+		List<Student> students = ListSources.getStudentList();
 
 		Map<String, List<Student>> gradeMap = students.stream().collect(Collectors.groupingBy(student -> {
 			if (student.getMarks() >= 80)

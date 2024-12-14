@@ -1,10 +1,10 @@
 package tech.sujith.model;
-import java.time.LocalDate;
-import java.util.Date;
-import java.util.List;
 
-import lombok.AllArgsConstructor;
+import java.time.LocalDate;
+import java.util.List;
 import lombok.Data;
+import tech.sujith.enums.Dept;
+import tech.sujith.enums.Gender;
 
 @Data
 public class Employee {
@@ -18,16 +18,12 @@ public class Employee {
     private Gender gender;
     private List<Bank> banks;
 
-    
-    
     public Employee(int id, String name, List<Bank> banks) {
 		super();
 		this.id = id;
 		this.name = name;
 		this.banks = banks;
 	}
-
-	
 
 	public Employee(int id, String name, Dept dept, double salary, LocalDate localDate, String job, Gender gender) {
 		super();
@@ -40,16 +36,4 @@ public class Employee {
 		this.gender = gender;
 
 	}
-
-
-
-	// Enum for Gender
-    public enum Gender {
-        MALE, FEMALE
-    }
-
-    // Enum for Department
-    public enum Dept {
-        IT, HR, FINANCE, OPERATIONS, SALES, MARKETING
-    }
 }

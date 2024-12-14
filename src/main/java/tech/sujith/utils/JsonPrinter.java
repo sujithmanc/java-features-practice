@@ -57,6 +57,6 @@ public class JsonPrinter {
 
 	// Method to print JSON string to console with pretty formatting
 	public static void printAsJsonPretty(String message, Object object) {
-		System.out.println(message + ": " + getJsonPretty(object));
+		System.out.println(message + ":\n" + getJsonPretty(object));
 	}
 }
